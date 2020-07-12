@@ -1,0 +1,1299 @@
+
+/*---------------------------cuerpo del sistema---------------------------------*/
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+
+body { 
+background-color:white;
+
+}
+
+table {
+  background: white;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  right: -40px;}
+
+th {
+  background-color:#A30502;
+  height: 35px;
+  border-bottom: 1px solid rgb(210, 220, 250);
+  color:white;
+  border:2px solid #c1c1c1; 
+}
+
+td {
+  color: rgba(100, 100, 100, 60);
+  height: 28px;
+  border: 2px solid #c1c1c1;
+}
+
+  
+tr:hover {
+  background-color:rgb(0,0,0,0.2);
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+}
+
+label {
+
+  position: relative;
+  right:218px;
+}
+
+p {
+text-align: center;
+
+}
+
+input {
+margin-bottom: 1rem;
+height: 28px;
+position: relative;
+left:130px;
+
+}
+
+/* Botones */
+button {
+  background: #A30502;
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+  padding: .5rem 1rem;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top:10px;
+  left:21px;
+  border-radius: 20px;
+
+} 
+button:hover {
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6), 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+button:active {
+  box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+/* Opciones */
+option {
+  font-size: .9rem;
+  padding: 5px 1rem;
+}
+
+/*-------------------------------index.php--------------------------------------*/
+.logo1 {
+height: 105px;
+width: 350px;
+left: 8px;
+margin: auto;
+position: relative;
+top: -1px;
+
+}
+
+.logo2 {
+position: relative;
+margin:auto;
+height: 70px;
+width: 80px;
+top: -95px;
+left:1200px;
+
+}
+
+.header {
+  background-color:#A30502; 
+  border-radius: 0px;
+  margin:auto;
+  width: 1366px;
+  height: 100px;
+  position: relative;
+  top:0px;
+  left:0px;
+}
+
+.section {
+  margin:auto;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  right: 4px;
+}
+  
+.contenedor {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  background:#f9f9f9;
+  border: 3px solid #c1c1c1;
+  border-radius: 8px;
+  height: 200px;
+  position: relative;
+  top: 80px;
+  right: 8px;
+}
+
+.boton {
+  position: relative;
+  left: 85px;
+  height: 45px;
+  width: 140px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color:#A30502; 
+  border-radius: 0px;
+  margin:auto;
+  width: 1371px;
+  height: 100px;
+  position: relative;
+  left:-5px;
+  top:194px;
+}
+
+h4 {
+ text-align: center;
+ color:white;
+ position: relative;
+ top:22px;
+}
+
+h5 {
+  text-align: center;
+ color:white;
+ position: relative;
+ top: 27px;
+}
+
+/*----------------------------Cierre del index----------------------------------*/
+
+/*-----------------------------menuadm.php--------------------------------------*/
+.contenedor1 {
+  
+  position: absolute;
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 900px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-26px;
+  left: 200px;
+  border-radius: 10px;
+}
+
+.icono {
+  
+  position: relative;
+  height: 60px;
+  width: 60px;
+  top:-23px;
+  left: 500px;
+}
+
+.sesion {
+
+  position: relative;
+  top:1px;
+  left: 575px; 
+}
+
+.sesiones {
+
+  position: relative;
+  top:-39px;
+  left:430px;
+
+}
+
+.botonera2{
+  
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 237px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-155px;
+  border-radius: 10px;
+  left: -490px;
+}
+
+.boton3 {
+ 
+  position: relative;
+  left: 45px;
+  top: -2px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;   
+  }
+
+.boton4 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:8px;
+  border-radius:15px ;
+  }
+
+.boton5 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:19px;
+  border-radius:15px ;
+}
+
+
+
+.boton8 {
+  position: relative;
+  left:740px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:-47px;
+  border-radius:15px ;
+}
+
+
+.boton18 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:85px;
+  border-radius:15px ;
+}
+
+.boton19 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:-28px;
+  border-radius:15px;
+}
+
+.boton20 {
+  
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:322px;
+  top: 10px;
+}
+
+.boton21 {
+
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:-2px;
+  border-radius:15px;
+}
+
+
+.boton22 {
+
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:8px;
+  border-radius:15px;
+}
+
+.contenedor5 {
+
+  padding: 2em;
+  background:#f9f9f9 ;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 235px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-130px;
+  left: -490px;
+  border-radius: 10px;
+
+}
+
+.contenedor2 {
+
+  position: absolute;
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 900px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-40px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.contenedor7 {
+  
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 758px;
+  height: 329px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-545px;
+  border-radius: 10px;
+  left: 160px;
+}
+
+.footer2{
+
+  background-color:#A30502;  
+  border-radius: 0px;
+  width: 1365px;
+  height: 44px;
+  position: absolute;
+  top:623px;
+  left:1px;
+}
+
+.boton41{
+  
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:250px;
+  top: 30px;
+}
+
+.boton42 {
+
+  position: relative;
+  left: 68px;
+  height:50px;
+  width: 120px;
+  top: -7px;
+  border-radius: 5px;
+  border-radius: 10px; 
+}
+
+.boton43 {
+
+  position: relative;
+  left: 228px;
+  height:50px;
+  width: 120px;
+  top: -73px;
+  border-radius: 5px;
+  border-radius: 10px; 
+}
+
+.boton44 {
+
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:265px;
+  top: 20px;
+}
+ .container9{  
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:4px;
+  border-radius: 10px;
+  right: 70px;
+
+  }
+
+  .mensaje2{
+  position: relative;
+  top:300px;
+  left: 500px;
+
+
+  }
+
+/*-------------------------Cierre del menuadm.php-------------------------------*/
+
+/*---------------------------admbeneficiario------------------------------------*/
+
+.container {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-22px;
+  border-radius: 10px;
+  right: 85px;
+}
+
+
+.contenedor6 {
+
+  padding: 2em;
+  background:#f9f9f9 ;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 235px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-26px;
+  left: -490px;
+  border-radius: 10px;
+
+}
+
+.titulo1 {
+
+  text-align: center;
+  color: black;
+  top:3px;
+  right: 50px;
+}
+
+.titulo3 {
+color: black;
+text-align: center;
+top: 7px;
+right: 1px;
+}
+
+.titulo4 {
+position: relative;
+right: 45px;
+
+}
+
+.titulo5 {
+position: relative;
+right: 67px;
+top: 7px;
+
+}
+
+.container7 {
+
+   padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:4px;
+  border-radius: 10px;
+  right: 70px;
+}
+
+.botonera {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-50px;
+  border-radius: 10px;
+  right: 85px;  
+}
+
+.boton1 {
+  position: relative;
+  left: 75px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px;
+
+}
+
+.boton2 {
+  position: relative;
+  left: 110px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px; 
+
+}
+
+.botonera5 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 237px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-51px;
+  border-radius: 10px;
+  left: -490px;
+
+}
+
+.boton23 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:30px;
+  border-radius:15px ;
+}
+
+.boton25 {
+
+  position: relative;
+  left: 75px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.boton26 {
+
+  position: relative;
+  left: 110px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px; 
+}
+
+
+/*-----------------------cierre admbeneficiario-------------------------------*/
+
+/*----------------------------modbeneficiario---------------------------------*/
+.container8 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-30px;
+  border-radius: 10px;
+  }
+
+.boton39 {
+
+  position: relative;
+  left: 65px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px;
+  }
+
+.boton40 {
+ 
+  position: relative;
+  left: 100px;
+  height:40px;
+  width: 120px;
+  top: -3px;
+  border-radius: 5px;
+  border-radius: 10px; 
+}
+
+.titulo {
+
+  position: relative;
+  right: 10px;
+  top: 20px;
+}
+
+.botonera1 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-60px;
+  border-radius: 10px;
+  right: 0px;  
+  }
+
+/*------------------------------cierre-modbeneficiario--------------------------*/
+
+/*---------------------------admproductos--------------------------------------*/
+
+.botonera3 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:16px;
+  border-radius:0px;
+  position: relative;
+  left: 0px;
+  border-radius: 10px; 
+}
+
+.boton9 {
+  position: relative;
+  left: 65px;
+  height:40px;
+  width: 120px;
+  top: -8px;
+  border-radius: 5px; 
+
+}
+
+.boton10 {
+  position: relative;
+  left: 100px;
+  height:40px;
+  width: 120px;
+  top: -8px;
+  border-radius: 5px; 
+
+}
+
+.container2 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:45px;
+  border-radius: 10px;
+}
+
+.container1 {
+position: relative;
+top:-85px;
+right:50px;
+}
+
+.container4 {
+ position: relative;
+top:-73px;
+right:50px;
+}
+
+.container5 {
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:45px;
+  border-radius: 10px;
+
+}
+
+.titulo8 {
+text-align: center;
+  color: black;
+  top:3px;
+  right: 50px;
+
+}
+
+.container6{
+position: relative;
+top:-85px;
+right:50px;
+}
+
+.contenedor8 {
+
+  padding: 2em;
+  background:#f9f9f9 ;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 235px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-26px;
+  left: -490px;
+  border-radius: 10px;
+
+  }
+
+.botonera6 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 237px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-51px;
+  border-radius: 10px;
+  left: -490px;
+
+}
+
+.botonera8 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:16px;
+  border-radius:0px;
+  position: relative;
+  left: 0px;
+  border-radius: 10px; 
+
+}
+
+.boton37 {
+ position: relative;
+  left: 65px;
+  height:40px;
+  width: 120px;
+  top: -8px;
+  border-radius: 5px;  
+}
+
+
+ .boton38 {
+  position: relative;
+  left: 100px;
+  height:40px;
+  width: 120px;
+  top: -8px;
+  border-radius: 5px;
+} 
+
+.boton6 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:-2px;
+  border-radius:15px ;
+}
+
+.boton7 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:8px;
+  border-radius:15px ;
+}
+
+.boton17 {
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:19px;
+  border-radius:15px ;
+}
+
+
+.boton24 {
+
+  position: relative;
+  left: 45px;
+  top: 30px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px; 
+
+}
+
+.message {
+
+  position: relative;
+ left: 270px;
+
+  }
+
+/*--------------------------cierreadmproductos------------------------------*/
+
+/*--------------------------Inicio menubeneficiario-----------------------------*/
+
+.titulo2 {
+
+color: black;
+text-align: center;
+top: 7px;
+right: 1px;
+}
+
+.container3 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 400px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-5px;
+  border-radius: 10px;
+  right: 50px;
+}
+
+.titulo6{
+ position: relative;
+ right: 45px;
+}
+
+.mensaje {
+  position: relative;
+  top:10px;
+  left:-50px;
+}
+
+.botonera4 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 237px;
+  height: 230px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-50px;
+  position: relative;
+  left: -490px;
+  border-radius: 10px; 
+}
+
+.boton28 {
+
+  position: relative;
+  left: 80px;
+  height:40px;
+  width: 120px;
+  top: -1px;
+  border-radius: 5px;
+  border-radius: 10px;
+
+}
+
+.boton29 {
+
+  position: relative;
+  left: 110px;
+  height:40px;
+  width: 120px;
+  top: -1px;
+  border-radius: 5px;
+  border-radius: 10px; 
+
+}
+
+.boton11 {
+  
+  position: relative;
+  left: 45px;
+  top: -2px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px; 
+    
+  }
+.boton12 {
+ 
+  position: relative;
+  left: 45px;
+  top: 8px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;
+}
+
+.boton13 {
+ 
+  position: relative;
+  left: 45px;
+  top:19px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;
+}
+
+.contenedor3 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 680px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-420px;
+  left: 130px;
+  border-radius: 10px;
+}
+
+.contenedor4 {
+
+  padding: 2em;
+  background:#f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 235px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-430px;
+  left: -490px;
+  border-radius: 10px;
+
+}
+
+
+.boton14 {
+
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:-70px;
+  top: 0px;
+
+}
+
+.boton15 {
+
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:85px;
+  top: -45px;
+
+}
+
+.boton16 {
+
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:295px;
+  top: 30px;
+
+}
+
+.boton27 {
+  position: relative;
+  left: 45px;
+  top:14px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;
+}
+
+.chequeo{
+position:relative;
+left:0px;
+top: 8px;
+
+}
+
+.mensaje2{
+  position: relative;
+  top:-25px;
+  left:8px;
+
+}
+
+
+/*----------------------------Cierre  menubeneficiario-------------------------*/
+
+/*--------------------------------Benepago------------------------------------*/
+.boton30 {
+  position: relative;
+  left: 45px;
+  top: -2px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px; 
+    
+}
+
+.boton31 {
+  position: relative;
+  left: 45px;
+  top: 4px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;  
+}
+
+.boton32 {
+position: relative;
+  left: 45px;
+  top:19px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;
+
+}
+
+.boton33{
+  position: relative;
+  left:45px;
+  height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  top:30px;
+  border-radius:15px ;
+}
+
+.boton34 {
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:290px;
+  top: 30px;
+}
+
+.boton35 {
+
+  position: relative;
+  left: 110px;
+  height:40px;
+  width: 120px;
+  top: -1px;
+  border-radius: 5px;
+  border-radius: 10px; 
+
+}
+
+.boton36 {
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left:325px;
+  top: 30px;
+}
+
+.boton45 {
+  position: relative;
+  left: 45px;
+  top: 12px;
+  height: 50px;
+  width: 150px;
+  border-radius:15px;  
+}
+
+.botonera7 {
+
+  padding: 2em;
+  background: #f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 237px;
+  height: 220px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:54px;
+  position: relative;
+  left: -490px;
+  border-radius: 10px;
+}
+
+.contenedor9 {
+
+  padding: 2em;
+  background:#f9f9f9;
+  border: 3px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 235px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  position: relative;
+  top:-316px;
+  left: -490px;
+  border-radius: 10px;
+}
+
+.titulo7 {
+
+  color: black;
+  text-align: center;
+  top: 7px;
+  right: 1px;
+}
+
+.cerrar {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.msg {
+  position: relative;
+ left: 290px;
+
+}
+
+
+
+/*----------------------------Cierre Benepago--------------------------------...------*/
+
+form {
+  width: 100%;
+  padding-top: 1rem;
+
+}
+form ul {
+  list-style: none;
+}
+
+
+/* Media queries */
+@media (max-width: 720px) { 
+  /* Los li alinean su hijos al comienzo */
+  
+
